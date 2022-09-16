@@ -6,7 +6,6 @@ import math
 lidar = serial.Serial('COM5', 115200)
 output = cv.imread(r"output.png")
 
-
 output = cv.resize(output, (1000, 1000))
 angle = 0
 while True:
